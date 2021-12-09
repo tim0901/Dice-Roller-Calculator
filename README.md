@@ -39,7 +39,7 @@ You can also roll nested rolls, such as:
 
 # Calculator
 
-The library also acts as a basic calculator, supporting addition/subtraction, multiplication/division, indices and brackets - maintaining operator priority. This allows for relatively complex expressions to be evaluated:
+The library also acts as a basic calculator, supporting addition/subtraction, multiplication/division, indices and brackets while maintaining operator priority. This allows for relatively complex expressions to be evaluated:
 
 ```
 2(2d20kl1 + 2(4d6min5)) + (3d8)^(2+1) + 7 = 2 * (2d20kl1 (**1**, ~~3~~) + 2 * (4d6min5 (~~3~~ -> 5, **6**, 5, **6**))) + (3d8 (3, **8**, 2))^(2 + 1) + 7 = 2294
